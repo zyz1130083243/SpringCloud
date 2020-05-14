@@ -1,0 +1,8 @@
+#spring:
+#  application:
+#    name : Service-A
+#  cloud:
+#    config:
+#      name: application
+#      uri : http://localhost:9002/
+#      profile : release
