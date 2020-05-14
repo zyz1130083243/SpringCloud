@@ -7,7 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zhou_yangzhong/SpringCloud-Properties.git
+          uri: https://github.com/zyz1130083243/SpringCloud.git
+          username:
+          password:
+          search-paths:
+            - Config
+          default-label: master
 
 eureka:
   client:

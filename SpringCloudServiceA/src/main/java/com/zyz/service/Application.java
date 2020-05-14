@@ -9,7 +9,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @SpringBootApplication
 @ServletComponentScan
 @EnableDiscoveryClient
-//@RefreshScope
+//@RefreshScope //开启配置更新
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

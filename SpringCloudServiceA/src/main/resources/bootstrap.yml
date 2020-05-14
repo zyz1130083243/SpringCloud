@@ -1,8 +1,9 @@
+#要先开启配置更新
 #spring:
 #  application:
 #    name : Service-A
 #  cloud:
 #    config:
 #      name: application
-#      uri : http://localhost:9002/
-#      profile : release
+#      uri : http://localhost:9001/
+#      profile : dev
